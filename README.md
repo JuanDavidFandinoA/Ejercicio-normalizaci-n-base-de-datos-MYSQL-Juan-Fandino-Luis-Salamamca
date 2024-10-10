@@ -10,16 +10,6 @@ El proyecto contiene los siguientes archivos:
 - **README.md**: Archivo que contiene esta explicación detallada.
 - **Diagrama ER.png**: Diagrama que muestra las relaciones entre las tablas.
 
-## Instrucciones
-
-### Requisitos
-
-Para ejecutar el código de este proyecto, necesitarás un sistema gestor de bases de datos compatible con SQL, como:
-
-- MySQL
-- PostgreSQL
-- SQL Server
-
 ## Normalización
 
 La base de datos ha sido normalizada para evitar redundancias y garantizar la integridad de los datos. A continuación, se describen las tres formas normales aplicadas:
@@ -48,7 +38,6 @@ Este proyecto está basado en un diagrama Entidad-Relación (E-R) que modela las
 ## Pasos para la Creación de la Base de Datos
 
 1. **Crear la base de datos**:
-   Ejecuta el siguiente comando para crear la base de datos:
 
    ```sql
    CREATE DATABASE UniversidadDB;
@@ -56,7 +45,6 @@ Este proyecto está basado en un diagrama Entidad-Relación (E-R) que modela las
    ```
 
 2. **Crear las tablas**:
-   Usa los siguientes comandos SQL para crear las tablas y definir las relaciones entre ellas:
 
    ### Tabla `Docente`
    ```sql
@@ -170,9 +158,3 @@ Este proyecto está basado en un diagrama Entidad-Relación (E-R) que modela las
    ```
 
 3. **Ejecutar las consultas**:
-   Ejecuta todos los comandos SQL en tu gestor de base de datos.
-
-## Licencia
-
-Este proyecto es de uso libre y educativo. Si deseas mejorarlo o modificarlo, siéntete libre de hacerlo.
-
