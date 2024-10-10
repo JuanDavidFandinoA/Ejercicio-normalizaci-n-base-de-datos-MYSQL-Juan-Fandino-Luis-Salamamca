@@ -157,4 +157,4 @@ Este proyecto está basado en un diagrama Entidad-Relación (E-R) que modela las
    );
    ```
 
-3. **Ejecutar las consultas**:
+3. **Ejecutar las consultas**
